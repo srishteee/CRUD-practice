@@ -17,6 +17,10 @@ const Header = () => {
    const handleCreateProduct = () => {
        navigate("/create-product");
    };
+
+   const handleDataTableFilter = ()=>{
+    navigate("/filter-table");
+   }
   return (
     <AppBar position="fixed" sx={{ width: "100%" }}>
       <Toolbar>
@@ -31,6 +35,10 @@ const Header = () => {
         </Button>
         <Button onClick={ handleGetProduct} color="inherit" sx={{ mr: 2 }}>
           Get Products
+        </Button>
+
+        <Button onClick={ handleDataTableFilter} color="inherit" sx={{ mr: 2 }}>
+          Data Table
         </Button>
 
         {/* Title */}
