@@ -13,7 +13,7 @@ function Counter (){
 return(
     <div>
     {count}
-        
+    
         <button onClick={handleIncrease}>
        Increment
         </button>

@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //import GetProducts from './components/pages/get-product/GetProducts';
 
 import { RouterURLs } from './components/router/RoutingURLs.jsx';  // Add .jsx extension
-import Counter from './components/pages/counter/Counter.jsx';
+//import Counter from './components/pages/counter/Counter.jsx';
 
 
 
@@ -18,7 +18,7 @@ function App() {
     <>
 
     <RouterURLs /> 
-    <Counter/>
+    
     
     </>
   )

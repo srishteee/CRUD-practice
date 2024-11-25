@@ -5,6 +5,7 @@ import Header from '../pages/header/Header';
 import CreateProduct from '../pages/create-product/CreateProduct';
 import GetProducts from '../pages/get-product/GetProducts';
 import DataTable from "../pages/create-product/TableWithFilter";
+import Counter from "../pages/counter/Counter";
 
 export const RouterURLs = () => {
   return (
@@ -14,7 +15,7 @@ export const RouterURLs = () => {
         <Route path="/create-product" element={<CreateProduct />} />
         <Route path="/get-products" element={<GetProducts />} />
         <Route path="/filter-table" element={<DataTable/>} />
-        
+        <Route path ="/counter" element={<Counter/>} />
         
       </Routes>
     </Router>

@@ -21,6 +21,14 @@ const Header = () => {
    const handleDataTableFilter = ()=>{
     navigate("/filter-table");
    }
+  
+   const handleCounter =() =>{
+    navigate("/counter");
+   }
+
+
+
+
   return (
     <AppBar position="fixed" sx={{ width: "100%" }}>
       <Toolbar>
@@ -39,6 +47,10 @@ const Header = () => {
 
         <Button onClick={ handleDataTableFilter} color="inherit" sx={{ mr: 2 }}>
           Data Table
+        </Button>
+
+        <Button onClick={ handleCounter} color="inherit" sx={{ mr: 2 }}>
+          Counter
         </Button>
 
         {/* Title */}
